@@ -269,7 +269,7 @@ img.mfp-img {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
     background: #444; }
   .mfp-figure small {
-    color: #BDBDBD;
+    color: rgba(0.2, 0.2, 0, 0.5);
     display: block;
     font-size: 12px;
     line-height: 14px; }
@@ -297,7 +297,7 @@ img.mfp-img {
 .mfp-gallery .mfp-image-holder .mfp-figure {
   cursor: pointer; }
 
-@media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px) {
+@media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 500px) {
   /**
        * Remove all paddings around the image on small screen
        */
